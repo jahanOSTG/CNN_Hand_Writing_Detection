@@ -54,5 +54,18 @@ The model uses the **MNIST dataset**:
 - Epochs: 08 (adjustable)
 - Batch size: 32 (default, can use 32–64)
 
-**Example Training Plot:**
+---
+
+## 🧪 Model Evaluation
+
+After training the CNN on the dataset, the model was evaluated on the test set with the following results:
+
+| Metric         | Value                |
+|----------------|--------------------|
+| **Test Loss**  | 0.0335             |
+| **Test Accuracy** | 99.13%            |
+
+> ⚡ The model achieved an impressive **99.13% accuracy**, demonstrating excellent performance in classifying the images with minimal error (loss ≈ 0.0335).  
+
+This high accuracy shows that the CNN effectively learned the patterns in the dataset, making it highly reliable for predictions.
 
